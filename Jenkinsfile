@@ -5,7 +5,7 @@ pipeline{
         stage("Code Clone"){
             steps{
                 echo "Code Clone Stage"
-                git url: "https://github.com/PushpakChavhan/todo-app-v1.git", branch: "master"
+                git url: "https://github.com/PushpakChavhan/todo-app-v1.git", branch: "main"
             }
         }
         stage("Code Build & Test"){
